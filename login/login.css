@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background: linear-gradient(#390027,#10001f);
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin:0px;
+    padding:0px;
+    font-family: system-ui;
+}
+.form {
+         background-attachment: fixed;
+         background-color:rgb(255, 255, 255);
+         box-sizing: border-box;
+         width:320px;
+         height: 350px;
+         margin:120px 200px 50px 535px;
+         font-family: sans-serif;
+         border-radius:15px;
+}
+ h3 {
+     color:rgb(85, 0, 81);
+     text-align:center;
+     padding:20px;
+     margin-right: 20px;
+ }
+ h4 {
+     color:rgb(85, 0, 81);
+     margin-bottom: 15px;
+ }
+ .inside{
+     margin-left:20px;
+     margin-right:10px;
+ }
+ .text{
+ border:none;
+ border-bottom:1px solid rgb(85, 0, 81);
+ background:transparent ;
+ outline:none;
+ height:20px;
+ width:280px;
+ font-size:16px;
+ }
+  .login{
+         border:none;
+         outline:none;
+         border-radius:20px;
+         margin-top:15px;
+         margin-left:2px;
+         width:270px;
+         height:32px;
+         text-align:center;
+         background-color: rgb(85, 0, 81);
+         color:#ffffff;
+         font-size:16px;
+  }
+  .login:hover{
+      background-color: rgb(53, 1, 50);
+  }
+  .noaccount{
+               font-family: sans-serif;
+               color:rgb(85, 0, 81);
+               margin-top:20px;
+               font-size:12px;
+               text-decoration:none;
+  }
+  .noaccount a {
+          text-decoration:none;
+          color:rgb(85, 0, 81);
+          background: transparent;
+  }
+   .noaccount a:hover{
+         color: rgb(107, 107, 107);
+   }
+.placeholder {
+                 color:white;
+                 margin-bottom: 15px;
+                 }
+
+header{
+                    
+             width: 95%;                     
+             z-index: 100;
+             display:flex;
+             justify-content: space-between;
+             align-items:center;
+             margin: 30px;
+                 }
+
+
+a{
+             text-decoration: none;
+             color: rgb(255, 255, 255);    
+}
+
+
+ header nav{
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+             list-style: none ;
+                 }
+
+
+            .menu{
+                 font-size: 30px;
+                 text-transform:capitalize;
+                 }
+
+
+
+            header nav div{
+                     margin-right: 30px;
+                 }
+
+
+             header nav div a{
+                     padding: 10px 15px;
+                     border-radius: 20px;
+                 }
+
+
+             header nav div a:hover, .active{
+                     background-color:aliceblue;
+                     color:#8f0062;
+                 
+                 }
